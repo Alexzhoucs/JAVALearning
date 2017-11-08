@@ -7,7 +7,7 @@ public class ClassTest
         p1.name = "alex";
         p1.age = 19;
         p1.addCat(p1.cat,"c1");
-        System.out.println(p1.cat.name + p1.cat.num + p1.cat.allNum + p1.cat.total);
+        System.out.println(p1.cat.name + "\n" + p1.cat.num + "\n" + p1.cat.allNum + "\n" + p1.cat.total + "\n");
     }
 }
 
@@ -20,7 +20,7 @@ class People
 
     void addCat(Cat cat,String name)
     {
-        cat = new Cat(name);
+        this.cat = new Cat(name);
         System.out.println("add a cat\n");
     }
 
