@@ -1,3 +1,5 @@
+package ZZW;
+
 public class ClassTest
 {
     public static void main(String[] args)
@@ -7,7 +9,7 @@ public class ClassTest
         p1.name = "alex";
         p1.age = 19;
         p1.addCat(p1.cat,"c1");
-        System.out.println(p1.cat.name + "\n" + p1.cat.num + "\n" + p1.cat.allNum + "\n" + p1.cat.total + "\n");
+        System.out.println(p1.cat.name + "\n    cat.num     " + p1.cat.num + "\n    cat.allNum  " + p1.cat.allNum + "\n    cat.total   " + p1.cat.total + "\n");
     }
 }
 
